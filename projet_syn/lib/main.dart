@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+
+import 'screane/homePage.dart';
+import 'package:projet_syn/screen/splash/splashScreen.dart';
 import 'package:projet_syn/screane/container.dart';
+
 void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
@@ -10,11 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home:ContainerPage(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: OnboardingScreen(),
     );
   }
 }
-

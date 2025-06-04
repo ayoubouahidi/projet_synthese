@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "864300918868",
+    "project_id": "syntese-72031",
+    "storage_bucket": "syntese-72031.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864300918868:android:e28d8f5a77b210305025c1",
+        "android_client_info": {
+          "package_name": "com.example.projet_syn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ObauXyJ6R0wi3KQzHWfpCdcBdSKx7FE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
