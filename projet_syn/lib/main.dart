@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screane/homePage.dart';
+import 'package:projet_syn/screane/container.dart';
 void main() {
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:Homepage(),
+      home:ContainerPage(),
     );
   }
 }
